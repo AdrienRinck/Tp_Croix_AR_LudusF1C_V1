@@ -1,0 +1,23 @@
+Programme : Tp_Croix
+//BUT : Faire une croix avec des caractères rentrés par l'utilisateur de taille également définies par l'utilisateur
+//ENTREE : Un caractère et une taille
+//SORTIE : Une croix avec le caractère rentré et de taille défini également par l'utilisateur
+
+VAR : car:CARACTERE
+	  i,j,taille:ENTIER
+DEBUT 
+	Ecrire"Entrez un caractère"
+	Lire Car
+	Ecrire"Veuillez entrez la taille de la croix')
+	Lire Taille
+	Pour i<-1 jusqu'a Taille Faire
+	Debut 
+		Pour j<-1 jusqu'a Taille Faire
+		Debut
+			Si i=j OU i+j=taille+1 Alors
+			Ecrire Car
+			Sinon
+				Ecrire' '
+		Finsi
+	Finsi
+FIN.
